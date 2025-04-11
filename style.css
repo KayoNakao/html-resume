@@ -1,0 +1,7 @@
+
+.top-profile {
+    display: flex;
+    font-size: 36px;
+    align-items: center;
+    gap: 30px;
+}
