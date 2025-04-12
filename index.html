@@ -4,14 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <title>Kayo Resume</title>
 </head>
+
 <body>
-    <div class="top-profile">
+    <div class="container">
+        <div class="top-profile">
+            <div class="profile-image">
+                <img src="./assets/profile.PNG" alt="profile photo">
+            </div>
+            <div class="profile-content">
+                <h4>SKILLS</h4>
+                <ul>
+                    <li>Teamwork</li>
+                    <li>Time Management</li>
+                    <li>Problem Solving</li>
+                </ul>
+                <h4>LANGUAGES</h4>
+                <ul>
+                    <li>English</li>
+                    <li>Basic French</li>
+                    <li>Japanese</li>
+                </ul>               
+            </div>
+            <div class="links">
+                <a href="./public/about.html">About Me</a>
+                <a href="./public/contact.html">Contact</a>
+            </div>
+        </div>
+    <div class="main">
         <h1>NAKAO KAYO</h1>
-        <img src="./assets/profile.PNG" alt="profile photo" height="200">
-    </div>
-    <hr />
+
     <h2>EXPERIENCE</h2>
     <ul>
         <h3>Guarana Technologies Inc., Montreal - iOS Developer</h3>
@@ -26,17 +52,14 @@
 
             <h5>Some of the apps I worked on:</h5>
                 <ul>
-                    <li><p>Style App: A matching app for users to book professional stylists for personal styling services <br /> 
+                    <li><p> <a href="https://thestyleapp.ca/">The Style App</a>: A matching app for users to book professional stylists for personal styling services <br /> 
                         Fully developed including UI, API integration, parse server, stripe, chat function etc <br />
-                        Reference: <a href="https://thestyleapp.ca/">The Style App</a></p>
                         </li>
-                    <li><p>vidThat: Video creation app with auto zoom in/out, voice over and subtitle <br />
+                    <li><p><a href="https://vidthat.com/">vidThat</a>: Video creation app with auto zoom in/out, voice over and subtitle <br />
                         Developed video creation using AVFoundation, AVAudioEngine, Speech, Core Animation etc <br />
-                        Reference: <a href="https://vidthat.com/">vidThat</a>  </p>
                         </li>
-                    <li><p>Favday: A subscription-based app offering weekly or monthly coupons for drinks and food at registered cafes and bakeries <br /> 
+                    <li><p><a href="https://guarana-technologies.com/works/favday">Favday App</a>: A subscription-based app offering weekly or monthly coupons for drinks and food at registered cafes and bakeries <br /> 
                         Fully developed including UI, API integration, parse server, stripe etc <br />
-                        Reference: <a href="https://guarana-technologies.com/works/favday">Favday App</a> (Currently not available on App store)</p>
                         </li>
                 </ul>
         </ul><br />
@@ -93,23 +116,9 @@
             Diploma in Culture and General Education, major in English translations
         </p><br />
 </ul>
-    <hr />
-    <h4>SKILLS</h4>
-    <ul>
-        <li>Teamwork</li>
-        <li>Time Management</li>
-        <li>Problem Solving</li>
-    </ul>
-    <h4>LANGUAGES</h4>
-    <ul>
-        <li>English</li>
-        <li>Basic French</li>
-        <li>Japanese</li>
-    </ul>
-    <hr />
-    <a href="./public/about.html">About Me</a>
-    <a href="./public/contact.html">Contact</a>
-    <hr />
+</div>
+
+</div>
 </body>
 <footer>
     <small>© 2025 NAKAO KAYO All Rights Reserved.</small>

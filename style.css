@@ -1,7 +1,109 @@
 
-.top-profile {
-    display: flex;
-    font-size: 36px;
-    align-items: center;
-    gap: 30px;
+body {
+    font-family: "Poppins", sans-serif;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.top-profile {
+    background-color: #2549db;
+    display: grid;
+    order: 1;
+    grid-template-rows: fit-content(100%) fit-content(100%) fit-content(100%);
+    align-items: center;
+}
+
+.profile-image {
+    display: flex;
+    align-items: flex-end;
+    background-color: #25b1db;
+}
+
+img {
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    padding-top: 3rem;
+}
+
+.profile-content {
+    color: white;
+    margin: 1rem;
+}
+
+.links {
+   list-style: none; 
+   font-weight: bold;
+   font-size: 1.5rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.links a {
+    color: #25c0db;
+    margin: 1rem;
+    justify-content: center;
+  }
+
+  a {
+    font-weight: bold;
+  }
+
+  a:visited, a:active,   a:hover {
+    color: #db7125; /* after it’s clicked */
+  }
+
+h1 {
+    font-size: 6rem;
+    color: #2549db;
+    text-align: center;
+}
+
+h2 {
+    color: #2549db;
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.main {
+    padding: 2rem;
+    background-color: #bfe0ff;
+}
+
+hr {
+    border-top: 5px solid #2549db;
+    border-radius: 3px;
+    border-bottom: 0px;
+}
+footer {
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 3rem;
+        color: #2549db;
+        text-align: center;
+    }
+    
+    h2 {
+        color: #2549db;
+        font-size: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .main {
+        padding: 0.5rem;
+    }
+  }
